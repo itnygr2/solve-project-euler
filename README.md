@@ -8,9 +8,9 @@
 
 - try to use simple solutions, brute force yet straightforward solutions over complex but fast solutions
 
----
-
 # How to use
+
+---
 
 - clone this repo
 
