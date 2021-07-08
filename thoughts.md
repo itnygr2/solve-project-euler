@@ -10,3 +10,17 @@
 - 10 is 1010 in binary, the second 1 can 'collapse' once, becoming a 2.
 - so we have 
 ---
+- ### p754
+- instead of thinking of multiplying all the numbers together naively, think of how many times a given number appears in the G function.
+- this gives an 'inverse euler totient function', so to speak. the function takes in a number n and another number x, and outputs how many times x gets multiplied in G for G(n).
+- but observe that the 'inverse totient function' can be done by inclusion-exclusion.
+- for highly composite numbers (2*3*5*7*..), this only goes up to like, 20 numbers before the product reaches 10**25 so it's tractable.
+- and we get powermod built into python's pow function. 
+- i think this is solved then. looks daunting though XD
+---
+- ### p626
+- elementary observation 1: for all a<b, we can pad a by a matrix to form b by b matrix
+- in other words, if the a by a upper-left corner of two b by b matrics belong to different 'sets', we know we cannot form one from the other
+- elementary observation 2: the four operations are elementary matrix multiplications, perhaps suggesting some linear algebra specific knowledge
+- elementary observation 3: for c(20), some numerical rule must be discovered or some extremely efficient DP algorithm must be realized, as the answer itself will be quite large (possibly 10^20 or something) and will be intractable
+- don't expect to solve this one myself. at around 50% difficulty, one can use various methods and leverage the advantage of faster cpus over the years. at 70% it's getting really hard. don't have that much time for PE either.
