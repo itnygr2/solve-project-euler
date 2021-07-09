@@ -19,8 +19,8 @@
 - i think this is solved then. looks daunting though XD
 ---
 - ### p626
-- elementary observation 1: for all a<b, we can pad a by a matrix to form b by b matrix
-- in other words, if the a by a upper-left corner of two b by b matrics belong to different 'sets', we know we cannot form one from the other
-- elementary observation 2: the four operations are elementary matrix multiplications, perhaps suggesting some linear algebra specific knowledge
-- elementary observation 3: for c(20), some numerical rule must be discovered or some extremely efficient DP algorithm must be realized, as the answer itself will be quite large (possibly 10^20 or something) and will be intractable
-- don't expect to solve this one myself. at around 50% difficulty, one can use various methods and leverage the advantage of faster cpus over the years. at 70% it's getting really hard. don't have that much time for PE either.
+- burnside's lemma with a TON of matrix tricks
+- definitely the hardest i've seen so far
+---
+- ### p199
+- soddy circles...
